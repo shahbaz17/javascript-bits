@@ -184,3 +184,7 @@ function someFunction(){  // either camel case variables or functions, not both!
 ```
 #Perfs
 > On the way! :rocket: They are under the Optimization booth of mine! Hopefull till this weekend.
+
+> Meanwhile you can have a look at this cute lazy Panda! :stuck_out_tongue:
+
+![Cute Lazy Panda](http://i.kinja-img.com/gawker-media/image/upload/s--ft1APKVa--/18a5kzrhxhqwvjpg.jpg)
