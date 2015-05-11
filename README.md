@@ -44,7 +44,7 @@ var biggerVarMessUpEverythingThatYouWroteAbove = "But you can ignore it! :)"
 ```
 Things that you would have noticed:
 - A single space surrounding ```=``` is a good practice
-- Indentation: This is a tricky part, sometimes I do, sometimes I don't. Check the next section.
+- Alignment: This is a tricky part, sometimes I do, sometimes I don't. Check the next section.
 - Semicolons? Seriously? I don't have much time in adding semicolons when I am just declaraing variables, gives a clean look to my code.
 - Variable names should be small, concise and precise, `itMakesNoSenseInHavingALargeVariableName`
 
@@ -57,11 +57,11 @@ var IHaveBigNameSoIMakePeopleStretchTheirComfortZones = "Meh"
 IDontCareAddingVarInMyName                            = "LikeABoss"
 ```
 - Avoid doing one line instantiation
-- Its good to align things, but not always!
+- Its good to indent things, but not always!
 - Without a `var`, are you serious? Ok add ```use strict``` at the top of the file
 
-##Indentation
-There is a friction in JS developers when it comes to indentation, some have an opinion on never indent things, some wants to indent everything. So here is what I use.
+##Alignment
+There is a friction in JS developers when it comes to alignment, some have an opinion on never align things, some wants to align everything. So here is what I use.
 
 - Always align the declarations/instantiation
 ```javascript
@@ -79,13 +79,13 @@ function myAwesomeFunction(){
     var anotherVal  = createClass("classB")
     
     if (someVal.methodA()){
-        i = 1 // if you indent this, it will not be in a readable format
+        i = 1 // if you align this, it will not be in a readable format
         variables = [1, 2, 3]
-        these     = i ? 2 : 3 // indent = optional
+        these     = i ? 2 : 3 // align = optional
     }
 }
 ```
-- Any variable `below` a long variable name, deserves to be indented. Your code will look much readable, the down ladder is more human readable then the upper ones.
+- Any variable `below` a long variable name, deserves to be aligned. Your code will look much readable, the down ladder is more human readable then the upper ones.
 
 ##Spacing
 ```javascript
@@ -188,3 +188,7 @@ function someFunction(){  // either camel case variables or functions, not both!
 > Meanwhile you can have a look at this cute lazy Panda! :stuck_out_tongue:
 
 ![Cute Lazy Panda](http://i.kinja-img.com/gawker-media/image/upload/s--ft1APKVa--/18a5kzrhxhqwvjpg.jpg)
+
+#Credits
+Thankful to these awesome people who are helping in keeping this doc in shape. Want to contribute? Open an issue and lets add/modify some rules.
+- Ritesh Kumar [@ritz078](https://github.com/ritz078)
